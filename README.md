@@ -37,5 +37,6 @@ copia de seguridad
   - configuración de apache y php
   - logotipos de organizaciones (aunque esto no es tan importante, pero sigue siendo molesto perderlos)
 ```
-
+ - Write MORE Tests
+ - Add Night Mode
 @calivent
