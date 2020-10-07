@@ -1,0 +1,4 @@
+MySQLRUser="misp"
+MySQLRPass="PASSWORDUSUARIOMYSQL"
+OutputFileName="MISP-Backup"
+OutputDirName="./"
