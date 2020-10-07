@@ -48,9 +48,7 @@ else
         read OutputDirName
 fi
 
-
 # 
-
 # Rutas MISP
 MISPPath=$(locate MISP/app/webroot/index.php|sed 's/\/app\/webroot\/index\.php//')
 # database.php
@@ -70,7 +68,6 @@ GnuPGHomeDir=$(grep -o -P "(?<='homedir' => ').*(?=')" $MISPPath/app/Config/conf
 GnuPGPass=$(grep -o -P "(?<='password' => ').*(?=')" $MISPPath/app/Config/config.php)
 # creando backup
 TmpDir="$(mktemp -d)"
-
 
 echo "copia de imágenes y otras personalizadas"
 cp -r $MISPPath/app/webroot/img/orgs $TmpDir/
@@ -96,4 +93,4 @@ tar -zcf $OutputDirName/$OutputFileName-$(date "+%b_%d_%Y_%H_%M_%S").tar.gz $Tmp
 
 rm -rf $TmpDir
 echo $GnuPGHomeDir
-echo 'Bakcup MISP completado!!!'
+echo 'Backup MISP completado!!!'
