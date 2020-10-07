@@ -36,5 +36,6 @@ Copia de seguridad
   - configuración de apache y php
   - logotipos de organizaciones (aunque esto no es tan importante, pero sigue siendo molesto perderlos)
 
+[calivent](https://github.com/calivent)
 @calivent
 [Alexander Jäger]
