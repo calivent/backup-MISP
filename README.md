@@ -11,12 +11,12 @@ Instalación
 ============
 
 Modificar archivo de configuración:
-`` ``
+''''
 cp misp-backup.conf.ejemplo misp-backup.conf
 sudo cat /var/www/MISP/app/Config/database.php | grep password
 #ajustar valores
 vi misp-backup.conf
-`` ``
+''''
 
 Ejecutar
 =======
