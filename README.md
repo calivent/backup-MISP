@@ -30,8 +30,11 @@ copia de seguridad
 ====
 
 ```
-     archivos de muestra
-     certificados de servidor para conexiones de sincronización
-     logotipos de organizaciones (aunque esto no es tan importante, pero sigue siendo molesto perderlos)
+* archivos de muestra
+* certificados de servidor para conexiones de sincronización
+* cerificados ssl
+* Base de datos
+* configuración de apache y php
+* logotipos de organizaciones (aunque esto no es tan importante, pero sigue siendo molesto perderlos)
 ```
 
