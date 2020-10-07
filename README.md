@@ -1,4 +1,4 @@
-script de shell para hacer una copia de seguridad de MISP (ACTUALIZADO)
+Script shell para hacer una copia de seguridad de MISP (ACTUALIZADO)
 
 Necesita instalar localizar en su sistema:
 `` ``
