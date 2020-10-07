@@ -1,7 +1,7 @@
 Script shell para hacer una copia de seguridad de MISP (ACTUALIZADO)
 
 Necesita instalar localizar en su sistema:
-```
+```sh
 sudo apt-get install locate
 ```
 
@@ -11,7 +11,7 @@ Instalación
 ============
 
 Modificar archivo de configuración:
-```
+```sh
 cp misp-backup.conf.ejemplo misp-backup.conf
 sudo cat /var/www/MISP/app/Config/database.php | grep password
 #ajustar valores
@@ -22,11 +22,11 @@ Ejecutar
 =======
 
 ejecutar el script:
-```
+```sh
 sh misp-backup.sh
 ```
 
-copia de seguridad
+Copia de seguridad
 ====
 
   - archivos de muestra
